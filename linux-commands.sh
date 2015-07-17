@@ -12,3 +12,6 @@ sudo useradd userftp -p your_password -d /var/www -s /bin/false
 
 # chaging a user password
 passwd myUser
+
+# realpath alternative
+readlink -f xyzDirectory
