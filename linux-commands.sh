@@ -19,3 +19,6 @@ readlink -f xyzDirectory
 # set "creator" permission to a folder
 chown user:group ./folder
 chown -R user:group ./folder
+
+# clear linux font cache
+sudo fc-cache -fv
