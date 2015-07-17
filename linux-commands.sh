@@ -15,3 +15,7 @@ passwd myUser
 
 # realpath alternative
 readlink -f xyzDirectory
+
+# set "creator" permission to a folder
+chown user:group ./folder
+chown -R user:group ./folder
