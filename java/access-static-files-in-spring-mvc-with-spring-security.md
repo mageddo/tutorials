@@ -1,4 +1,15 @@
-* In annotation based Spring Project, I have setted the follows
+## In annotation based Spring Project, I have setted the follows
+
+1. first way
+
+```java
+@Override
+public void configure(WebSecurity web) throws Exception {
+	web.ignoring().antMatchers("/**");
+}
+```
+
+2. second way
 
 ```java
 WebSecurityConfigurerAdapter implementation
